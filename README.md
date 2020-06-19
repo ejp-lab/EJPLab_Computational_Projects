@@ -1,4 +1,4 @@
-# EJPLab_Computational_Projects
+# EJPLab Computational Projects
 Repository of all EJP lab computational projects. See appropriate folders for particular projects.
 
 1. __SRS2020__
