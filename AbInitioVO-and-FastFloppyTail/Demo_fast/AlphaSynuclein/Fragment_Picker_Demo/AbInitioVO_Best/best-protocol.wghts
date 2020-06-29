@@ -1,0 +1,4 @@
+# score name          priority	wght   min_allowed  extras 
+SecondarySimilarity	350	1.0	-	psipred
+RamaScore		150	2.0	-	
+ProfileScoreL1		200	2.0	-
