@@ -64,7 +64,7 @@ More info for the resfile can be found at https://www.rosettacommons.org/manuals
 There are two ways to use SRS2020 ddG predictors. The first way is running through the terminal. The second way is running through the Jupyter App interface. This is more acessible for user with limited terminal experience or those wanting a GUI interface.
 
 Files to run this demo can be downloaded from this link due to github size limits.
-https://bit.ly/3d0AggB
+https://bit.ly/2Qv5iEq
 
 Due to liscencing restriction of Rosetta, we cannot distribute the Rosetta database, therefore we recommend obtaining a Rosetta license and within that package there will be an associated database which you should redirect the program to.
 
