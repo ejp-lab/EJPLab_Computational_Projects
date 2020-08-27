@@ -2,7 +2,7 @@
 
 ## Accessing executable
 Due to size limit restriction of github, the executable is available for freely at the given google drive link.
-https://bit.ly/3d0AggB
+https://bit.ly/2Qv5iEq
 
 ## To run the executable
 It is important that the naming scheme for the resfile is followed. The resfile name must start with the pdb name then followed by underscore with original amino acid, its position, and the mutated amino acid. 
