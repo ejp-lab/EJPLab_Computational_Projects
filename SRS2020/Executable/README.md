@@ -1,5 +1,6 @@
 # Binary to Run SRS2020
 
+__This Page is outdated look at the Demo Folder for Most Updated Files and Versions__
 ## Accessing executable
 Due to size limit restriction of github, the executable is available for freely at the given google drive link.
 https://bit.ly/2Qv5iEq
