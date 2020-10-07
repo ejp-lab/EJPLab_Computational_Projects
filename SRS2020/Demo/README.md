@@ -29,7 +29,7 @@ More info about constraints can be found at <https://www.rosettacommons.org/docs
 The structure must be relaxed with the following options. __Note there is no gurantee that SRS2020 will be efficacious if these exact relax protocol options are not used__. The cartesian relax protocol is with constraints, beta16_cart score function, minimizer option of lbfgs_armijo_nonmonotone,minimize bond angles on and dualspace on. 
 
 We also provide an executable to do the relax. We highly recommend that it is used for those unfamiliar with Rosetta. It can be found at this associated google drive link: 
-https://bit.ly/2Qv5iEq
+https://bit.ly/2SAlwNK
 ```
 .\Constrained_Relaxed_BetaNov16 -p input_pdb -cst constraint_file -o pdb_relaxed -db PATHTOROSETTADATABASE
 ```
@@ -93,6 +93,7 @@ For the specific files in this demo, the command is
 5. -scal  Scaler        (optional)
 
 ### Method II: The Jupyter App
+__Currently in the process of making improvements for the App. Please check back later__
 For the first time setup, one should give permissions to execute the file. On linux, this can easily be done by right clicking the executable and selecting properties and modifying permissions. This needs to be done for SRS2020_ddG_Predictor and run_SRS2020_ddG_Predictor_App.
 
 #### Accessing Jupyter App
