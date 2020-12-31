@@ -8,15 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import f_classif
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.gaussian_process import GaussianProcessClassifier
-from sklearn.gaussian_process.kernels import RBF
-from sklearn.linear_model import RidgeClassifier
-from sklearn import linear_model
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import RepeatedStratifiedKFold
@@ -43,22 +35,12 @@ def CreateSelectKBestDictionary(data, classes, n_splits):
     return out_dict
 
 def SetupAlgorithms():
-
-    logisticRegr = LogisticRegression()
-    clf_lin = SVC(kernel='linear')
-    clf_rbf = SVC(kernel='rbf')
-    clf_sig = SVC(kernel='sigmoid')
-    clf_pol2 = SVC(kernel='poly', degree=2)
-    clf_pol3 = SVC(kernel='poly', degree=3)
+    
     neigh = KNeighborsClassifier()
-    gnb = GaussianNB()
-    ridge = RidgeClassifier(alpha=1.0)
-    lda = LinearDiscriminantAnalysis()
-    kernel = 1 * RBF(1)
-    gpc = GaussianProcessClassifier(kernel=kernel, random_state=0)
+    # You can add other things here if you want. Just add to the lists below.
 
-    algorithm_list = [logisticRegr, clf_lin, clf_rbf, clf_sig, clf_pol2, clf_pol3, neigh, gnb, ridge, lda, gpc]
-    algorithm_names = ['LOG', 'SVCLinear', 'SVCRBF', 'SVCSIG', 'SVCPOL2', 'SVCPOL3', 'KNN', 'GNB', 'KRR', 'LDA', 'GPC']
+    algorithm_list = [neigh]
+    algorithm_names = ['KNN']
 
     return algorithm_list, algorithm_names
 
