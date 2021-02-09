@@ -5,7 +5,7 @@ __Authors__: Sumant R. Shringari, Sam Giannakoulias, John Ferrie, E. James Peter
 
 Contact us at ejpetersson@sas.upenn.edu
 
-A manuscript regarding this work can be found at https://doi.org/10.1039/D0CC01959C
+The publication regarding this work can be found at https://pubs.rsc.org/en/content/articlelanding/cc/2020/d0cc01959c#!divAbstract
 
 ## Set Up
 Calculation of ddG values from mutations at protein-protein interfaces
