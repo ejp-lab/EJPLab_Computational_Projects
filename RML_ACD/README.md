@@ -15,15 +15,20 @@ Programming Langauge: Python This code was specifically written and tested in Py
 __Required Python Packages__:
 
     PyRosetta:    http://www.pyrosetta.org/dow v. 2020.08+release.cb1caba
-    biopython:    pip or conda install v. 1.76   or newer
-    numpy:        pip or conda install v. 1.18   or newer
-    scipy:        pip or conda install v. 1.4.1  or newer
-    scikit-learn: pip or conda install v. 0.22.1 or newer
+    biopython:    pip or conda install v. 1.76.1
+    numpy:        pip or conda install v. 1.18.1
+    scipy:        pip or conda install v. 1.4.1
+    scikit-learn: pip or conda install v. 0.22.1
 
-Anaconda Environment: An anaconda environment yml file containing all necessary packages can be found in the anaconda folder.
+Anaconda Environment: An anaconda environment yml file containing all necessary packages can be found in the anaconda folder. All code was sepcifically tested using packages with versions exactly provided in the yml provided.  
+
+Anaconda installation should take approximately 20 minutes including PyRosetta
 
 ## Instruction for Use
 Refer to RCSF, ESF, and Machine Learning folders for further instruction
 
 ## Datasets
 The training and hold-out datasets can be found in Dataset folder. 
+
+## Simulation Runtime
+This program is built off of averaged trials of local relaxes in PyRosetta. Each position of interest can be simulated on a basic desktop or laptop computer in approximately 30 minutes
