@@ -2,5 +2,5 @@ Make sure to have these two files in the folder where you a performing your simu
 
 Pyrosetta should be initialized in the following way:
 
-    `from pyrosetta import *
-    `init(extra_options='-extra_res_fa acd.params')
+    from pyrosetta import *
+    init(extra_options='-extra_res_fa acd.params')
