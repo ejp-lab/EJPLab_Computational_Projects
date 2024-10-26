@@ -4,8 +4,8 @@ ChemTAsk is an open-source AI system designed to study a graduate-level class in
 
 ## License
 
-ChemTAsk is released under the [MIT License](LICENSE), encouraging open collaboration and sharing.
+ChemTAsk is released under the MIT license.
 
 ## Acknowledgements
 
-For more detailed information, please refer to our [research paper](link-to-paper) and the documentation within this repository.
+For more detailed information, please refer to our paper and the documentation within this repository.
