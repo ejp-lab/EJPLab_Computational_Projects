@@ -1,0 +1,11 @@
+-in::file::vall /cm/shared/apps/rosetta/rosetta3.9/tools/fragment_tools/vall.jul19.2011.gz
+-in::file::fasta		asyn.fasta.txt
+-in::file::checkpoint		asyn.chk
+-frags::ss_pred			asyn.ncor.ppred.ss2 psipred
+-out::file::frag_prefix		asyn_ncor_frags
+-frags::describe_fragments 	asyn_ncor_frags.fsc
+-frags::scoring::config		best-protocol.wghts
+-frags::frag_sizes 		9 3 
+-frags::n_candidates		1000
+-frags::n_frags			200
+-frags::bounded_protocol
