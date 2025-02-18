@@ -1,5 +1,5 @@
 # Hint Token Learning Repository
-## Overview
+## Overview of the Project
 
 This repository contains the data, training code, and best model parameters after hyper-parameter tuning in the hint token learning project.
 
