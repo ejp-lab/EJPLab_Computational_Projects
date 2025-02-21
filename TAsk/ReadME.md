@@ -1,18 +1,18 @@
-# ChemTAsk: An Open-Source Pipeline for Enhanced Graduate-Level Education
+# TAsk: An Open-Source Pipeline for Enhanced Graduate-Level Education
 
-ChemTAsk is an open-source AI system designed to study a graduate-level class in biological chemistry using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). Developed to assist students in an advanced biological chemistry course at the University of Pennsylvania, ChemTAsk integrates course materials—including lecture transcripts and academic papers—to provide accurate, context-specific responses to student queries.
+TAsk is an open-source AI system designed to study a graduate-level class in biological chemistry using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). Developed to assist students in an advanced biological chemistry course at the University of Pennsylvania, TAsk integrates course materials—including lecture transcripts and academic papers—to provide accurate, context-specific responses to student queries.
 
 ## General Information
-The ChemTAsk server faciliates a student to AI pipeline which can be mediated and recorded by an instructor of a course. The pipeline features: 1) Security measures to ensure student information is redacted, 2) retrieval augmented generation to find relavent documents to a user query, 3) automatic reading and sending of emails. 
+The TAsk server faciliates a student to AI pipeline which can be mediated and recorded by an instructor of a course. The pipeline features: 1) Security measures to ensure student information is redacted, 2) retrieval augmented generation to find relavent documents to a user query, 3) automatic reading and sending of emails. 
 
 ## Installation
 
-Installation of ChemTAsk requires conda and the installation of the associated yml script. You can install conda via instructions on the [anaconda website](https://docs.anaconda.com/anaconda/install/)
+Installation of TAsk requires conda and the installation of the associated yml script. You can install conda via instructions on the [anaconda website](https://docs.anaconda.com/anaconda/install/)
 
 Installation of the yml file can be accomplished with the following command:
-`conda env create -f ChemTAsk.yml`
+`conda env create -f TAsk.yml`
 
-The ChemTAsk server was originally built with the Google Cloud, ngrock, and OpenAI APIs. The following instructions will instruct on how to properly configure these endpoints for utilization of ChemTAsk.
+The TAsk server was originally built with the Google Cloud, ngrock, and OpenAI APIs. The following instructions will instruct on how to properly configure these endpoints for utilization of TAsk.
 
 ### ngrock
 
@@ -34,7 +34,7 @@ The ChemTAsk server was originally built with the Google Cloud, ngrock, and Open
 12. Fill the rest of the form out and save
 13. Under Credentials click + CREATE CREDENTIALS > Create OAuth client ID
 14. Application Type is desktop application. Click create after giving it a name.
-15. Click DOWNLOAD JSON and name the file 'credentials.json' in the ChemTAsk folder
+15. Click DOWNLOAD JSON and name the file 'credentials.json' in the TAsk folder
 16. Under Pub/sub, create a new topic with default parameters
 17. Under subscriptions, create a new subscription
 18. Select type 'push' and in the endpoint url, copy paste the endpoint found in the terminal from ngrok (E.g. https://xxxx-xxxx-xxxx-x-xx-xxxx-xxxx-xxxx-xxxx.ngrok.free.app). You will have to update this each time the server is restarted with the free version!
@@ -86,9 +86,9 @@ options:
 
 *email_checker.py* - Methods to access Google Cloud and emails
 
-**evaluate_RAG_models_multiple_choice.py** - Evaluates the Perplexity AI model or ChemTAsk on the biological chemistry multiple choice test. Usage:
+**evaluate_RAG_models_multiple_choice.py** - Evaluates the Perplexity AI model or TAsk on the biological chemistry multiple choice test. Usage:
 `python evaluate_RAG_models_multiple_choice.py [model]`
-models: ChemTAsk, Perplexity
+models: TAsk, Perplexity
 Note: You will need to create an [account](https://www.perplexity.ai/settings/api) with Perplexity. Save the API key as PERPLEXITY_API_KEY in .bashrc
 
 **graph_p_true_results.py** - Creates AUROC plots for models on an augmented multiple choice set. Must run the p_true_multiple_choice.py with all models. Usage:
@@ -129,15 +129,15 @@ usage: python uncertainty_pipeline_github.py [-h] [--debug | --no-debug]
 
 ## Files
 
-**permissions.csv** - Contains individual emails and access permission for ChemTAsk
+**permissions.csv** - Contains individual emails and access permission for TAsk
 
-**deidentified_dataset_final.csv** - All ChemTAsk interactions from the 9 week study
+**deidentified_dataset_final.csv** - All TAsk interactions from the 9 week study
 
 **deidentified_reviewer_scores.csv** - Contains all assesments of the 50 representative queries from the 9 week study as well as TA answers.
 
 ## License
 
-ChemTAsk is released under the MIT license.
+TAsk is released under the MIT license.
 
 ## Acknowledgements
 
