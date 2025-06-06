@@ -5,7 +5,7 @@ All model‐training code is grouped under the top‐level `Model_Training/` fol
 ```
 Model_Training/
 ├── KCNE1/ ← example shown; PTEN, RecA, TPMT follow the same pattern
-│   ├── ESM_15B/
+│   ├── ESM_15B/ ← backbone A
 │   │   ├── HTL/ ← Hint Token Learning experiments
 │   │   │   ├── README.txt
 │   │   │   ├── models.py
@@ -16,7 +16,7 @@ Model_Training/
 │   │   │   ├── models.py
 │   │   │   ├── utils.py
 │   │   │   └── persequence_ESM15_finetuning_KCNE1_NO_HTL.py
-│   ├── ESM_650M/
+│   ├── ESM_650M/ ← backbone B
 │   │   ├── HTL/
 │   │   │   ├── README.txt
 │   │   │   ├── models.py
@@ -27,7 +27,7 @@ Model_Training/
 │   │   │   ├── models.py
 │   │   │   ├── utils.py
 │   │   │   └── persequence_ESM650_finetuning_KCNE1_NO_HTL.py
-│   ├── ProtBERT/
+│   ├── ProtBERT/ ← backbone C
 │   │   ├── HTL/
 │   │   │   ├── README.txt
 │   │   │   ├── models.py
@@ -38,7 +38,7 @@ Model_Training/
 │   │   │   ├── models.py
 │   │   │   ├── utils.py
 │   │   │   └── persequence_ProtBERT_finetuning_KCNE1_NO_HTL.py
-│   ├── ProtT5/
+│   ├── ProtT5/ ← backbone D
 │   │   ├── HTL/
 │   │   │   ├── README.txt
 │   │   │   ├── models.py
@@ -75,4 +75,4 @@ This structure is mirrored exactly for `KCNE1/`, `PTEN/`, `RecA/`, and `TPMT/`, 
 
 - Directly run `persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py` in each folder
 
-``` python persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py
+  ``` python persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py``` 
