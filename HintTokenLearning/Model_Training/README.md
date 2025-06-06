@@ -75,4 +75,5 @@ This structure is mirrored exactly for `KCNE1/`, `PTEN/`, `RecA/`, and `TPMT/`, 
 
 - Directly run `persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py` in each folder after retrieve the corresponding data
 
-  ``` python persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py``` 
+  <pre> ```  python persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py ```
+  </pre>
