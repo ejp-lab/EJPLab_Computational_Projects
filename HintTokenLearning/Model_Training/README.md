@@ -52,7 +52,7 @@ Model_Training/
 
 ```
 
-### Explanation
+### Explanations
 
 - **Dataset folders (e.g., `KCNE1/`, `PTEN/`, `RecA/`, `TPMT/`):**  
   Each corresponds to a different protein or experimental dataset. All four follow the same sub‐folder pattern.
@@ -64,9 +64,14 @@ Model_Training/
   - `HTL/` contains code for experiments where **Hint Token Learning** is enabled.  
   - `NO_HTL/` contains the corresponding “control” experiments (same data + architecture, but without hint tokens).  
   Inside each of these, you’ll always find:  
-  1. **`README.txt`** – brief instructions specific to that setup (dependencies, command‐line flags, etc.).  
+  1. **`README.txt`** 
   2. **`models.py`** – model definitions or network architectures.  
   3. **`utils.py`** – helper functions (data loaders, metrics, etc.).  
   4. **`persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py`** – the actual script you invoke to train/fine‐tune on that dataset under the chosen configuration.
 
 This structure is mirrored exactly for `KCNE1/`, `PTEN/`, `RecA/`, and `TPMT/`, so once you’re familiar with one directory tree, you know where to look for any other dataset’s training code.
+
+### Training Instructions
+
+- Directly run `persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py` in each folder
+- ``` python persequence_<BACKBONE>_finetuning_<DATASET>_<HTL/NO_HTL>.py```
