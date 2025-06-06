@@ -6,7 +6,7 @@ All model‐training code is grouped under the top‐level `Model_Training/` fol
 Model_Training/
 ├── KCNE1/← example shown; PTEN, RecA, TPMT follow the same pattern
 │   ├── ESM_15B/
-│   │   ├── HTL/
+│   │   ├── HTL/ ← **“Hint Token Learning” experiments**
 │   │   │   ├── README.txt
 │   │   │   ├── models.py
 │   │   │   ├── utils.py
