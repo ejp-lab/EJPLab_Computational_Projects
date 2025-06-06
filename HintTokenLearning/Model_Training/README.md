@@ -1,4 +1,4 @@
-# Model training instruction
+# Model training
 
 All model‐training code is grouped under the top‐level `Model_Training/` folder. Inside, you’ll find one subfolder per protein dataset—e.g., `KCNE1/`, `PTEN/`, `RecA/`, and `TPMT/`. Each dataset folder follows an identical layout:
 
