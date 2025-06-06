@@ -52,7 +52,7 @@ Model_Training/
 
 ```
 
-### Explanations
+### Directory Structure Explanations
 
 - **Dataset folders (e.g., `KCNE1/`, `PTEN/`, `RecA/`, `TPMT/`):**  
   Each corresponds to a different protein or experimental dataset. All four follow the same sub‐folder pattern.
