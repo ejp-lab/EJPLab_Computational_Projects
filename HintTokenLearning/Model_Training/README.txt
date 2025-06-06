@@ -44,5 +44,5 @@ Model_Training/
 │   │   │   ├── README.txt
 │   │   │   ├── models.py
 │   │   │   ├── utils.py
-│   │   │   └── persequence_ProtT5_finetuning_KCNE1_NO_HTL.py
+```│   │   │   └── persequence_ProtT5_finetuning_KCNE1_NO_HTL.py
 ```
