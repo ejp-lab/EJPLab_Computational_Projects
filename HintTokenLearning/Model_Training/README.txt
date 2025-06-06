@@ -1,3 +1,4 @@
+```
 Model_Training/
 ├── KCNE1/
 │   ├── ESM_15B/                         
@@ -44,3 +45,4 @@ Model_Training/
 │   │       ├── models.py
 │   │       ├── utils.py
 │   │       └── persequence_ProtT5_finetuning_KCNE1_NO_HTL.py
+```
