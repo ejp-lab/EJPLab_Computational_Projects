@@ -1,6 +1,5 @@
-# (optional title—doesn’t matter)
+# Model training instruction
 
-Below is my directory layout:
 
 ```text
 Model_Training/
