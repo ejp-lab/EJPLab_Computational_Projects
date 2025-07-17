@@ -44,4 +44,4 @@ Predicting how amino‑acid substitutions affect protein stability is a fundamen
 - **💡 Training Instructions**
   - Directly run `persequence_<BACKBONE>_t5_finetuning_<DATASET>.py` in each folder 
 
-  ``` python persequence_<BACKBONE>_t5_finetuning_<DATASET>.py ```
+  - ``` python persequence_<BACKBONE>_t5_finetuning_<DATASET>.py ```
