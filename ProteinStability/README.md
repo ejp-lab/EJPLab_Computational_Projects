@@ -14,14 +14,34 @@ Predicting how amino‑acid substitutions affect protein stability is a fundamen
   - Contains the initial data exploration of dG datasets
   - Helps in understanding data distributions and key features
  
-- **📂 GFP, dG, ddG**
-  - Each folder contains:
-    - **train.joblib**: the dataset for model training
-    - **val.joblib**: the dataset for model validation
-    - **test.joblib**: the dataset for model testing
-    - **persequence_classfication_t5_finetuning.py**: training code
-    - **models.py**: model architecture
-    - **util.py**: util functions
-      
+- **📂 GFP**
+  - **train.joblib**: the dataset for GFP model training
+  - **val.joblib**: the dataset for GFP model validation
+  - **test.joblib**: the dataset for GFP model testing
+  - **persequence_classification_t5_finetuning_GFP.py**: GFP model training code
+  - **models.py**: model architecture
+  - **util.py**: util functions
+ 
+- **📂 dG**
+  - **train.joblib**: the dataset for dG model training
+  - **val.joblib**: the dataset for dG model validation
+  - **test.joblib**: the dataset for dG model testing
+  - **persequence_regression_t5_finetuning_Tsuboyama.py**: dG model training code
+  - **models.py**: model architecture
+  - **util.py**: util functions
+ 
+- **📂 ddG**
+  - **skempi_train.joblib**: the dataset for ddG model training
+  - **skempi_val.joblib**: the dataset for ddG model validation
+  - **skempi_test.joblib**: the dataset for ddG model testing
+  - **persequence_regression_t5_finetuning_SKEMPI.py**: ddG model training code
+  - **models.py**: model architecture
+  - **util.py**: util functions
+  
 - **📄 environment.yml**
   - Configuration file for environment settings
+ 
+- **💡 Training Instructions**
+  - Directly run `persequence_<BACKBONE>_t5_finetuning_<DATASET>.py` in each folder 
+
+  ``` python persequence_<BACKBONE>_finetuning_<DATASET>.py ```
