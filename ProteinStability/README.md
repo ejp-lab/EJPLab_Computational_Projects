@@ -1,6 +1,13 @@
 # Protein Stability Prediction Models
 ## Overview
-This repository contains code and data for training models to predict protein stabilities upon mutations. The models are organized into specific tasks focusing on GFP fluorescence (heavily influenced by the stability of GFP), dG (protein tertiary stability), and ddG (protein quaternary stability) predictions.
+Predicting how amino‑acid substitutions affect protein stability is a fundamental problem that impacts enzyme engineering, drug discovery and our basic understanding of folding thermodynamics.  This repository collects end‑to‑end workflows—from data curation to model training and evaluation—for three complementary stability prediction tasks.
+
+| Task | Experimental proxy for stability | Folder |
+|------|----------------------------------|--------|
+| **GFP** | Fluorescence intensity of Green Fluorescent Protein variants (higher fluorescence ≈ greater fold stability) | `GFP/` |
+| **dG** | Absolute folding free energy (ΔG) in kcal mol⁻¹ for soluble, single‑chain proteins | `dG/` |
+| **ddG** | Change in binding free energy (ΔΔG) of protein–protein complexes upon mutation | `ddG/` |
+
 
 ## Repository Structure
 - **📂 EDA**
