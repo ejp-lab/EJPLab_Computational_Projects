@@ -4,9 +4,9 @@ Predicting how amino‑acid substitutions affect protein stability is a fundamen
 
 | Task | Experimental proxy for stability | Folder |
 |------|----------------------------------|--------|
-| **GFP** | Fluorescence intensity of Green Fluorescent Protein variants (higher fluorescence ≈ greater fold stability) | `GFP/` |
-| **dG** | Absolute folding free energy (ΔG) in kcal mol⁻¹ for soluble, single‑chain proteins | `dG/` |
-| **ddG** | Change in binding free energy (ΔΔG) of protein–protein complexes upon mutation | `ddG/` |
+| **GFP** | Fluorescence intensity of Green Fluorescent Protein variants  | `GFP/` |
+| **dG** | Absolute folding free energy (ΔG) in kcal mol⁻¹ for single‑chain proteins upon mutation| `dG/` |
+| **ddG** | Change in binding free energy (ΔΔG) in kcal mol⁻¹of protein–protein complexes upon mutation | `ddG/` |
 
 
 ## Repository Structure
@@ -20,3 +20,8 @@ Predicting how amino‑acid substitutions affect protein stability is a fundamen
     - **val.joblib**: the dataset for model validation
     - **test.joblib**: the dataset for model testing
     - **persequence_classfication_t5_finetuning.py**: training code
+    - **models.py**: model architecture
+    - **util.py**: util functions
+      
+- **📄 environment.yml**
+  - Configuration file for environment settings
