@@ -68,7 +68,9 @@ Despite being trained on fewer than 300 experimentally measured binding affiniti
       ```
   - **Visualize Chemical-Space Similarity**
     - Overlay similarity distributions of training + test vs prospective compounds against the background Mcule library::
-      ``python 2_visualize.py TRAIN_TEST_CSV PROSPECTIVE_CSV PARQUET_DATASET``
+      ```
+      python 2_visualize.py TRAIN_TEST_CSV PROSPECTIVE_CSV PARQUET_DATASET
+      ```
     - This script generates histograms showing scaffold coverage and diversity, reproducing Fig. 2 from the manuscript.
   
 - **📄 environment.yml**
