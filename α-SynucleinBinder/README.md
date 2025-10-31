@@ -42,7 +42,7 @@ Despite being trained on fewer than 300 experimentally measured binding affiniti
   - `SMILES` — name of the column in your input file that contains SMILES strings
   
  
-## Mcule Screening - This section describes how to calculate chemical similarity across the full Mcule library (~140 million compounds) and visualize scaffold diversity relative to the training, test, and prospective datasets.
+## 📂 Mcule Screening - This section describes how to calculate chemical similarity across the full Mcule library (~140 million compounds) and visualize scaffold diversity relative to the training, test, and prospective datasets.
   
   - **Calculate Tanimoto Similarity for the Full Mcule Library**:
     - To perform multi-processing Tanimoto calculations against the three parental ligands (BV-21, TZ61-84, M503-1619), run:
