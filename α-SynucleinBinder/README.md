@@ -6,12 +6,8 @@ This repository contains the data and code associated with our study:
 We developed a machine learning framework to predict new high-affinity ligands that bind to α-synuclein fibrils that is the key pathological features of Parkinson’s disease and related synucleinopathies.
 Despite being trained on fewer than 300 experimentally measured binding affinities, the model robustly generalized across chemical space and successfully identified five new sub-10 nM binders from a 140 million-compound virtual library.
 
+## 📂 Data – Datasets used for model training, testing, and prospective screening
 
-## Repository Structure
-
-
-- **📂 Data** – Datasets used for model training, testing, and prospective screening
-  
   - **Model development data:**
       - `tran.csv` – training set of experimentally measured ligands
       - `test.csv` – held-out test set for model evaluation
@@ -24,7 +20,7 @@ Despite being trained on fewer than 300 experimentally measured binding affiniti
       - `test_mordred.csv` – descriptor matrix for test compounds
       - `prospective_mordred.csv` – descriptor matrix for prospective screening compounds
 
-- **📂 Model** – Files and scripts for reproducing the best-performing machine learning model
+## 📂 Model – Files and scripts for reproducing the best-performing machine learning model
   
   - **Model components:**
     - `cv_selected_features.joblib` – selected Morgan fingerprint and Mordred descriptor features used in the final model
@@ -46,7 +42,7 @@ Despite being trained on fewer than 300 experimentally measured binding affiniti
   - `SMILES` — name of the column in your input file that contains SMILES strings
   
  
-- **📂 Mcule Screening** - This section describes how to calculate chemical similarity across the full Mcule library (~140 million compounds) and visualize scaffold diversity relative to the training, test, and prospective datasets.
+## Mcule Screening - This section describes how to calculate chemical similarity across the full Mcule library (~140 million compounds) and visualize scaffold diversity relative to the training, test, and prospective datasets.
   
   - **Calculate Tanimoto Similarity for the Full Mcule Library**:
     - To perform multi-processing Tanimoto calculations against the three parental ligands (BV-21, TZ61-84, M503-1619), run:
