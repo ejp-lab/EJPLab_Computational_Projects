@@ -2,18 +2,22 @@
 This repository contains the data and code associated with our study:
 “Machine Learning Prediction of Multiple Distinct High-Affinity Chemotypes for α-Synuclein Fibrils” by Xinning Li et al. (University of Pennsylvania, Washington University in St. Louis, and Sentauri Inc.)
 
-##🧠 Overview
+## Overview
 We developed a machine learning framework to predict new high-affinity ligands that bind to α-synuclein fibrils that is the key pathological features of Parkinson’s disease and related synucleinopathies.
 Despite being trained on fewer than 300 experimentally measured binding affinities, the model robustly generalized across chemical space and successfully identified five new sub-10 nM binders from a 140 million-compound virtual library.
 
 
 ## Repository Structure
-- **📂 Data **
-  - Contains data for model development: tran.csv, test.csv
-  - Contains data extracted from the full Mcule library to identify new binders: prospective_data.csv
-  - Cont
-  - Helps in understanding data distributions and key features
- 
+- **📂 Data**
+  - Contains data for model development:
+      - tran.csv
+      - test.csv
+  - Contains data extracted from the full Mcule library to identify new binders:
+      - prospective_data.csv
+  - Contains Mordred decriptors for model reproduction:
+      - train_mordred.csv
+      - test_mordred.csv
+      - prospective_mordred.csv
 - **📂 GFP**
   - **train.joblib**: the dataset for GFP model training
   - **val.joblib**: the dataset for GFP model validation
