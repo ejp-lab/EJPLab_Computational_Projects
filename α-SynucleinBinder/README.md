@@ -25,6 +25,7 @@ Despite being trained on fewer than 300 experimentally measured binding affiniti
   - **Model components:**
     - `cv_selected_features.joblib` – selected Morgan fingerprint and Mordred descriptor features used in the final model
     - `cv_selected_logistic_regression.joblib` – optimized logistic regression model and hyperparameters
+    - `ccv_selected_logistic_regression_coefficients.joblib` – feature coefficients of optimized logistic regression model
       
   - **Reproducing predictions:**
   - To reproduce or run inference on new data, execute:
